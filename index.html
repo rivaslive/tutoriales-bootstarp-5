@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- block bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- endblock bootstrap -->
+
+    <!-- block custom css -->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- endblock custom css -->
+
+    <!-- Fontawesome import  -->
+    <script src="https://kit.fontawesome.com/e967afc642.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- block Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark custom-bg-navbar sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RivasLive</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-md-flex justify-content-md-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item text-end">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- endblock Navbar -->
+
+    <!-- block Grid Component -->
+    <div class="container pb-5" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+      <section class="row custom-container" id="home">
+        <!-- Col 1 -->
+        <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
+          <div>
+            <h1 class="weight-800">Welcome To My Website!</h1>
+            <h4 class="weight-800 text-primary-2">Kevin Rivas</h4>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="col-sm-12 col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="mt-4 mb-4">
+            <img class="mw-100" src="assets/img/me.png" alt="Me">
+          </div>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
+          <div>
+            <h2 class="h1 weight-800">Welcome To My Website!</h1>
+            <h4 class="weight-800 text-primary-2">Kevin Rivas</h4>
+          </div>
+        </div>
+    </section>
+
+    <!-- block my Skills -->
+    <section class="mt-5" id="service">
+      <div>
+        <h2 class="h4 weight-800 text-center text-primary-2">SERVICES</h1>
+        <h2 class="h1 weight-800 text-center">What I Am Great At</h1>
+        <div class="text-center me-auto ms-auto" style="width: 500px; max-width: 100%;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fuga necessitatibus architecto
+          tempore iusto reiciendis inventore, cum.
+        </div>
+
+        <div class="mt-5 row gy-4 justify-content-center">
+          <!-- Col 1 -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <i class="fas fa-palette icon-card text-muted"></i>
+                <h4 class="card-title mt-2">Card title</h4>
+                <h6 class="card-subtitle mb-2 mt-2 text-muted">Card subtitle</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <i class="fas fa-angle-right icon-card text-muted"></i>
+                <h4 class="card-title mt-2">Card title</h4>
+                <h6 class="card-subtitle mb-2 mt-2 text-muted">Card subtitle</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <i class="fas fa-search icon-card text-muted"></i>
+                <h4 class="card-title mt-2">Card title</h4>
+                <h6 class="card-subtitle mb-2 mt-2 text-muted">Card subtitle</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 4 -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card" >
+              <div class="card-body text-center">
+                <i class="fas fa-signal icon-card text-muted"></i>
+                <h4 class="card-title mt-2">Card title</h4>
+                <h6 class="card-subtitle mb-2 mt-2 text-muted">Card subtitle</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- endBlock my Skills -->
+
+
+    <!-- block PORTFOLIO -->
+    <section class="mt-5" id="portfolio">
+      <div>
+        <h2 class="h4 weight-800 text-center text-primary-2">PORTFOLIO</h1>
+        <h2 class="h1 weight-800 text-center">My Masterpiece Collection</h1>
+        <div class="text-center me-auto ms-auto" style="width: 500px; max-width: 100%;">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+           fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia
+        </div>
+
+        <div class="mt-5 row gy-4 justify-content-center">
+          <!-- Col 1 -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img  src="https://i.guim.co.uk/img/media/8f02bb49224d9a94699b75213664bf898617c062/0_288_5315_3189/master/5315.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=89721e1224115e05a05203a62cf93f7c" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://i.pinimg.com/originals/9c/be/df/9cbedfc20f7894f520c8f6ffd21e1218.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <!-- card 1 -->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4" style="overflow: hidden;">
+                  <div class="card-image">
+                  <img
+                   class="card-image"
+                    src="https://images.squarespace-cdn.com/content/v1/5b3fcb96365f02d49a2b630f/1533320853552-UG2226ZNZWU3AGC1NL64/ke17ZwdGBToddI8pDm48kOosBlRVSmKQ3oRqoBRb_a57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZByKJQNtM4d0u6vdbaZI1i6izfZr7QvjQXHc0DMPAKmCD6yKTHyerIvj1j5VZjt2w/Wolf_V2_1600.jpg?format=2500w"
+                     alt="..."
+                     >
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is tional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4" style="overflow: hidden;">
+                  <div class="card-image">
+                    <img class="card-image" src="https://i.guim.co.uk/img/media/6fb15c20a169d95f10309801affaf41682e94fce/0_365_5568_3341/master/5568.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=b756a3db6a7d6f47c67d0b0544e35e84" alt="...">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4" style="overflow: hidden;">
+                  <div class="card-image">
+                    <img class="card-image" src="https://wildearthguardians.org/wp-content/uploads/2020/06/Wolf-Howling-Blog-Hero-WildEarth-Guardians.png" alt="...">
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- endBlock PORTFOLIO -->
+
+  </div>
+  <!-- endblock Grid Component -->
+
+  <!-- Footer -->
+  <div class="text-center p- pb-0">
+    <p>&copy; Copyright</p>
+    <p><b>CREATED BY:</b> Kevin Rivas</p>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
